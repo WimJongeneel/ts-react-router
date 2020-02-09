@@ -37,16 +37,16 @@ const Link: React.FC<LinkProps> = props => (
   >{props.children}</a>
 )
 
-export const App: React.FC<{}> = () => (
-  <main>
-    <Link to={'/'}>Home</Link>
-    <Link to={'/about'}>About</Link>
-    <Router>
-      <Route path="/"><h1>Home</h1></Route>
-      <Route path="/about"><h1>About</h1></Route>
-    </Router>
-  </main>
-)
+  export const App: React.FC<{}> = () => (
+    <main>
+      <Link to={'/'}>Home</Link>
+      <Link to={'/about'}>About</Link>
+      <Router>
+        <Route path="/"><h1>Home</h1></Route>
+        <Route path="/about"><h1>About</h1></Route>
+      </Router>
+    </main>
+  )
 
 interface RouteProps {
   path?: string

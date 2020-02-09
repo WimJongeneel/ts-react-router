@@ -1,11 +1,3 @@
-# ts-react-boilerplate
+# A React Router From Scratch in TypeScript
 
-Simple setup for TS, React, Webpack and webpack-dev-server. Not supposed to be used in production, just for quick prototyping of ideas.
-
-```
-yarn start
-```
-
-```
-yarn build
-```
+This project is part of an article, read it over here.
